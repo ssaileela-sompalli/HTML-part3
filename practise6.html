@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h2>Feedback Form</h2>
+   <form action="server.php">
+    <label for="id1">Name:</label>
+    <input type="text" placeholder="write your name" id="id1">
+    <br>
+    <label for="id2">Email:</label>
+    <input type="email" placeholder="write your email" id="id2">
+    <br>
+    <label for="id3">Message:</label>
+    <br>
+    <textarea id="id3" cols="30" rows="5"></textarea>
+    <br>
+    <label>Rate us out of 5:</label>
+    <br>
+    <input type="radio" id="id4" name="rating" value="1">
+    <label for="id4">1</label>
+    <br>
+    <input type="radio" id="id5" name="rating" value="2">
+    <label for="id5">2</label>
+    <br>
+    <input type="radio" id="id6" name="rating" value="3">
+    <label for="id6">3</label>
+    <br>
+    <input type="radio" id="id7" name="rating" value="4">
+    <label for="id7">4</label>
+    <br>
+    <input type="radio" id="id8" name="rating" value="5">
+    <label for="id8">5</label>
+    <br>
+    <button type="button">Send your Message:</button>
+</form>
+</body>
+</html>
